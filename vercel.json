@@ -1,14 +1,14 @@
 {
-    "builds" : [
+    "rewrites" : [
         {
-            "src":"DENEME1/main.py",
-            "use":"@vercel/python"
+            "source":"/main.py",
+            "destination":"@vercel/python"
         }
     ],
     "routes" : [
         {
             "src":"/(.*)",
-            "dest":"DENEME1/main.py"
+            "dest":"/main.py"
         }
     ]
 }
