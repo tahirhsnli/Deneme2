@@ -1,5 +1,5 @@
 {
-    "rewrites" : [
+    "builds" : [
         {
             "source":"/main.py",
             "destination":"@vercel/python"
